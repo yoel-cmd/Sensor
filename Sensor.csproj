@@ -44,9 +44,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="agent.cs" />
+    <Compile Include="junior.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="sensor.cs" />
+    <Compile Include="sensorFactory.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

@@ -10,6 +10,19 @@ namespace Sensor
     {
         static void Main(string[] args)
         {
+
+
+            //Console.WriteLine("enter rank");
+            //string rank = Console.ReadLine();
+
+            //agent agent = new agent(rank);
+
+
+
+            //Console.WriteLine(agent.sensors.Length);
+
+            
+
         }
     }
 }
