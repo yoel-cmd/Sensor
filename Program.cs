@@ -10,19 +10,9 @@ namespace Sensor
     {
         static void Main(string[] args)
         {
+            agent agent = new agent("yoel", "junior");
 
-
-            //Console.WriteLine("enter rank");
-            //string rank = Console.ReadLine();
-
-            //agent agent = new agent(rank);
-
-
-
-            //Console.WriteLine(agent.sensors.Length);
-
-            
-
+            agent.activateSensor();
         }
     }
 }
