@@ -9,7 +9,7 @@ namespace Sensor
     internal class junior : agent
     {
 
-        public junior(string rank) : base(rank){
+        public junior(string name, string rank) : base(name,rank){
 
 
 
