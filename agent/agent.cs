@@ -12,7 +12,7 @@ namespace Sensor
         public string name{ get; set; }
         public string rank{ get; set; }
         public sensor[] WeaknesseSsensors { get; set;}
-        public sensor[] attachedSensor { get; set;}
+        
 
 
  //----------------------------------------------------------------------------------------------------       
