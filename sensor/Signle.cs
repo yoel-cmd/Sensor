@@ -9,5 +9,6 @@ namespace Sensor.sensor
     internal class Signle:Sensor
     {
         public Signle() : base("Signle") { }
+
     }
 }
