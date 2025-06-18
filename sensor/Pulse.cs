@@ -6,19 +6,9 @@ using System.Threading.Tasks;
 
 namespace Sensor
 {
-    internal class junior : agent
+    internal class PulseSensor : Sensor
     {
-
-        public junior(string name, string rank) : base(name,rank){
-
-
-
-        }
-
-
-
-
-
+        public PulseSensor() : base("Pulse") { }
 
     }
 }

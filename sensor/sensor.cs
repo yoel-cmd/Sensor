@@ -6,20 +6,22 @@ using System.Threading.Tasks;
 
 namespace Sensor
 {
-    internal class sensor
+    internal class Sensor
     {
        public string name { get; }
 
         public bool isActiv = false;
         
-        public sensor(string name)
+        public Sensor(string name)
         {
             this.name = name;
         }
         public void activate()
         {
 
-            isActiv = true;
+            Console.WriteLine(name);
+
+            //isActiv = true;
 
         }
     }

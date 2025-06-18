@@ -43,13 +43,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="agent\agent.cs" />
-    <Compile Include="junior.cs" />
+    <Compile Include="agent\Agent.cs" />
+    <Compile Include="agent\Foot Soldier.cs" />
+    <Compile Include="agent\Organization Leader.cs" />
+    <Compile Include="agent\Senior Commander.cs" />
+    <Compile Include="agent\Squad Leader.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="room\room.cs" />
-    <Compile Include="sensor\sensor.cs" />
-    <Compile Include="sensor\sensorFactory.cs" />
+    <Compile Include="sensor\Audio.cs" />
+    <Compile Include="sensor\Cellular.cs" />
+    <Compile Include="sensor\Light.cs" />
+    <Compile Include="sensor\Magnetic.cs" />
+    <Compile Include="sensor\Motion.cs" />
+    <Compile Include="sensor\Pulse.cs" />
+    <Compile Include="room\Game.cs" />
+    <Compile Include="room\Room.cs" />
+    <Compile Include="sensor\Sensor.cs" />
+    <Compile Include="sensor\SensorFactory.cs" />
+    <Compile Include="sensor\Single.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

@@ -6,45 +6,30 @@ using System.Threading.Tasks;
 
 namespace Sensor
 {
-    static  class sensorFactory
+    static  class SensorFactory
     {
 
        private static Random rnd = new Random();
 
         public static string[] sensorNames = new string[]
     {
-        "movement", "thermal", "selilar"
+         "Thermal", "Audio", "Pulse", "Motion", "Magnetic", "Cellular", "Light", "Single"
     };
-
-        private static Dictionary<string, int> arrRank = new Dictionary<string, int>
-        {
-            { "junior", 2 },
-            { "senior", 3 },
-            { "commander", 4 }
-        };
         //----------------------------------------------------------------------------------------------------
-        public static sensor[]  rndSensor(string rank)
+        public static Sensor[]  rndSensor(int num)
         {
 
-            sensor[] sensor = new sensor[arrRank[rank]];
-            ;
-            if (!arrRank.ContainsKey(rank))
-            {
-                throw new ArgumentException("Rank not found");
-            }
-            
+            Sensor[] sensor = new Sensor[num];
             for (int i = 0; i < sensor.Length; i++)
             {
-                sensor[i] = new sensor(sensorNames[rnd.Next(sensorNames.Length)]);
+                sensor[i] = new Sensor(sensorNames[rnd.Next(sensorNames.Length)]);
             }
 
             return sensor;
-
-
         }
         //----------------------------------------------------------------------------------------------------
         
-        //----------------------------------------------------------------------------------------------------
+        
 
     }
 }
