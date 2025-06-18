@@ -12,7 +12,9 @@ namespace Sensor
         {
             agent agent = new agent("yoel", "junior");
 
-            agent.activateSensor();
+            
+
+
         }
     }
 }

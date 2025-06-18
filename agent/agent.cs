@@ -8,7 +8,7 @@ namespace Sensor
 {
     internal class agent
     {
-        Random rnd = new Random();
+      
         public string name{ get; set; }
         public string rank{ get; set; }
         public sensor[] WeaknesseSsensors { get; set;}
@@ -28,8 +28,7 @@ namespace Sensor
       
         public void printInfo()
         {
-            Console.WriteLine($"name : {name}");
-            Console.WriteLine($"name : {name}");
+                   
             for (int i = 0; i < WeaknesseSsensors.Length; i++)
             {
                 Console.WriteLine($"name sensor : {name}");      

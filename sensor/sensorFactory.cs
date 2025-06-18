@@ -11,7 +11,7 @@ namespace Sensor
 
        private static Random rnd = new Random();
 
-        private static string[] sensorNames = new string[]
+        public static string[] sensorNames = new string[]
     {
         "movement", "thermal", "selilar"
     };
