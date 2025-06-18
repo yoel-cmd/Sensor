@@ -14,14 +14,10 @@ namespace Sensor
         {
 
             Foot_Soldier foot_Soldier = new Foot_Soldier("yoel");
-
             Room room = new Room(9, foot_Soldier);
+            Game game = new Game(room);
+            game.Run();
 
-            foot_Soldier.activateSensor();
-            Console.WriteLine("--------------------------");
-            room.Game();
-
-            
         }
     }
 }

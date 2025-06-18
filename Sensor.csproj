@@ -60,7 +60,7 @@
     <Compile Include="room\Room.cs" />
     <Compile Include="sensor\Sensor.cs" />
     <Compile Include="sensor\SensorFactory.cs" />
-    <Compile Include="sensor\Single.cs" />
+    <Compile Include="sensor\Signle.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
