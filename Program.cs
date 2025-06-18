@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Sensor.agent;
+using Sensor.room;
 
 namespace Sensor
 {
@@ -10,9 +12,16 @@ namespace Sensor
     {
         static void Main(string[] args)
         {
-            agent agent = new agent("yoel", "junior");
 
-            agent.activateSensor();
+            Foot_Soldier foot_Soldier = new Foot_Soldier("yoel");
+
+            Room room = new Room(9, foot_Soldier);
+
+            foot_Soldier.activateSensor();
+            Console.WriteLine("--------------------------");
+            room.Game();
+
+            
         }
     }
 }
