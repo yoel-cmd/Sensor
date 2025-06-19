@@ -1,4 +1,4 @@
-# Sensor
+# S
 
 Game Flow Description
 The game follows a flow where:
